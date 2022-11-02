@@ -84,7 +84,7 @@ body {
 /*correção*/
 
 .sobre-nos {
-    padding: 7rem;
+    padding: 5rem;
     gap: 1rem;
 }
 
@@ -102,4 +102,29 @@ body {
     line-height: 1.5rem;
 }
 
+.sobre-nos__itens {
+    padding: 3rem;
+    gap: 1rem;
+    margin: 1rem;
+}
 
+.sobre-nos__itens h1 {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.sobre-nos__itens h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--cor-titulo);
+}
+
+.sobre-nos__itens p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-texto);
+}

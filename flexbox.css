@@ -34,5 +34,11 @@
     text-align: center;
 }
 
+.sobre-nos__itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: stretch;
+}
 
 
